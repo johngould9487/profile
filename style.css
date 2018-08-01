@@ -47,7 +47,7 @@ td {
 }
 
 .container {
-  width: 600px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -58,6 +58,13 @@ td {
   padding: 20px;
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .img-circle {
@@ -93,4 +100,17 @@ td {
 .btn-maroon:hover {
   color: white;
   background-color: #8B3923;
+}
+
+#sidebar {
+  background-color: #5F634F;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+#page-content {
+  margin-left: 100px;
 }
